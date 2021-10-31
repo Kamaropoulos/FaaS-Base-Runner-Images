@@ -13,4 +13,4 @@ COPY --chown=node:node . /usr/src/app
 
 EXPOSE 3000
 
-CMD [ "dumb-init", "node", "main.js" ]
+CMD [ "npm", "start" ]
